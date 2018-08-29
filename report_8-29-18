@@ -1,0 +1,6 @@
+#!/bin/bash
+
+hostname
+ifconfig | grep en0
+free
+nproc
