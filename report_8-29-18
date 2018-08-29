@@ -1,6 +1,12 @@
 #!/bin/bash
 
-hostname
-ifconfig | grep en0
-free
-nproc
+hostname >> report_8-29-18.log
+ifconfig eth0 >> report_8-29-18.log
+free -m >> report_8-29-18.log
+nproc >> report_8-29-18.log
+
+ 
+
+
+
+
